@@ -1,7 +1,9 @@
-//import Image from "next/image";
+//import Image from "next/image"
+
+import Page from "./dashboard/user/page"
 
 export default function Home() {
   return (
-    <h1 className="text-3xl">Welcome to NextJs</h1>
+    <Page/>
   );
 }
